@@ -1,0 +1,29 @@
+{
+  "name": "selectandshareplace_googlemaps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf .dis/; webpack",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafhaelmallorga/SelectAndSharePlace_GoogleMaps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafhaelmallorga/SelectAndSharePlace_GoogleMaps/issues"
+  },
+  "homepage": "https://github.com/rafhaelmallorga/SelectAndSharePlace_GoogleMaps#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.6.2",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
